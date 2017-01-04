@@ -4,10 +4,7 @@ This repo is a [homebrew](http://brew.sh) Tap so you can install the excellent [
 
 ## How to install
 
-```sh
-brew tap focusaurus/homebrew-shfmt
-brew install shfmt
-```
+`brew install focusaurus/homebrew-shfmt/shfmt`
 
 ## Supported OS
 
