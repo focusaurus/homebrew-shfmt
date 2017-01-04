@@ -9,7 +9,7 @@ class Shfmt < Formula
   def install
     # We have to setup a really deep directory structure
     # so go build will find all the code properly
-    version = "0.1.0"
+    version = "1.0.0"
     ENV["GOPATH"] = buildpath/".."
     mkdir_p buildpath/"../src/github.com/mvdan"
     mv buildpath/"../sh-#{version}", buildpath/"../src/github.com/mvdan/sh"
