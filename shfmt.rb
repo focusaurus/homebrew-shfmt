@@ -1,8 +1,8 @@
 class Shfmt < Formula
   desc "Autoformat shell script source code"
   homepage "https://github.com/mvdan/sh"
-  url "https://github.com/mvdan/sh/archive/v#0.1.0.tar.gz"
-  sha256 "357fa088dee9eaeceb2044df2456ab80cac33aca657fa920d052b04336d40150"
+  url "https://github.com/mvdan/sh/archive/v#1.0.0.tar.gz"
+  sha256 "e28bf7d9fcc22cdfde0c7c8f31e3648a4847e7bda9cb69f309f24257eee3dd41"
   head "https://github.com/mvdan/sh.git"
   depends_on "go" => :build
 
