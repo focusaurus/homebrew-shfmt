@@ -1,15 +1,15 @@
 class Shfmt < Formula
   desc "Autoformat shell script source code"
   homepage "https://github.com/mvdan/sh"
-  url "https://github.com/mvdan/sh/archive/v1.0.0.tar.gz"
-  sha256 "568a88b0f1c8d80e410e5565ec0d4c5b38def1c1aace241f7299596fdfc6e146"
+  url "https://github.com/mvdan/sh/archive/v1.2.0.tar.gz"
+  sha256 "3d2973f1adf99fcf65baae3c85697313a782dbedc2600fedb28687541a20ed43"
   head "https://github.com/mvdan/sh.git"
   depends_on "go" => :build
 
   def install
     # We have to setup a really deep directory structure
     # so go build will find all the code properly
-    version = "1.0.0"
+    version = "1.2.0"
     ENV["GOPATH"] = buildpath/".."
     mkdir_p buildpath/"../src/github.com/mvdan"
     mv buildpath/"../sh-#{version}", buildpath/"../src/github.com/mvdan/sh"
